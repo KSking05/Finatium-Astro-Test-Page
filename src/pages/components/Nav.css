@@ -1,0 +1,9 @@
+.profile-picture {
+    width: 100px;        /* Setzen Sie die gewünschte Breite */
+    height: 100px;       /* Setzen Sie die gewünschte Höhe */
+    border-radius: 50%;  /* Macht das Bild rund */
+    object-fit: cover;   /* Stellt sicher, dass das Bild richtig skaliert wird */
+    border: 2px solid #fff; /* Optional: Weißer Rand um das Bild */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Leichter Schatten */
+  }
+  
