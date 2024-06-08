@@ -19,5 +19,38 @@ import Nav from "../pages/components/Nav"
 	   		<Nav client:load/>
 			<slot />
 		</main>
+		<footer class="bg-gray-900 text-white py-12">
+			<div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+			  <div class="mb-8 md:mb-0">
+				<h2 class="text-2xl font-bold">Finatium</h2>
+				<p class="mt-4">Save Money and Time!</p>
+			  </div>
+			  <div>
+				<p class="mb-4">Connect with us:</p>
+				<div class="flex gap-4">
+				  <a href="#" class="text-xl hover:text-gray-400">
+					<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2.5 14h-1v-1.5c0-.28-.22-.5-.5-.5s-.5.22-.5.5V16h-1c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h1v-1c0-.28.22-.5.5-.5s.5.22.5.5v1h1c.28 0 .5.22.5.5s-.22.5-.5.5z"/>
+					</svg>
+				  </a>
+				  <a href="#" class="text-xl hover:text-gray-400">
+					<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M16 2H8c-2.21 0-4 1.79-4 4v8c0 2.21 1.79 4 4 4h8c2.21 0 4-1.79 4-4V6c0-2.21-1.79-4-4-4zm2 12c0 1.1-.9 2-2 2h-1.75l-1.21-1.21c-.29-.29-.77-.29-1.06 0l-2.54 2.54-1.46-1.46c-.39-.39-1.02-.39-1.41 0l-4.17 4.17V14c0-1.1-.9-2-2-2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2v6h2c1.1 0 2 .9 2 2v2h-.02z"/>
+					</svg>
+				  </a>
+				  <a href="#" class="text-xl hover:text-gray-400">
+					<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M21 2H3c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-9 15.5c-2.48 0-4.5-2.02-4.5-4.5s2.02-4.5 4.5-4.5 4.5 2.02 4.5 4.5-2.02 4.5-4.5 4.5zm3-7h-6v1h6v-1zm0-2h-6v1h6V8zm0-2h-6v1h6V6z"/>
+					</svg>
+				  </a>
+				</div>
+			  </div>
+			</div>
+		  </footer>
+		  
+		  <style>
+			/* Additional styles can be added here for further customization */
+		  </style>
+		  
 	</body>
 </html>

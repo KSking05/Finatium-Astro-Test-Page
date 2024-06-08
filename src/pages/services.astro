@@ -1,0 +1,28 @@
+---
+const { title } = Astro.props;
+import MainLayout from "../layouts/main-layout.astro";
+---
+
+<MainLayout title="Services">
+  <section class="py-16 bg-white">
+    <div class="container mx-auto">
+      <h1 class="text-4xl font-bold text-center text-gray-900 mb-8">Entdecke unsere Finanz-App</h1>
+      <p class="text-lg text-center text-gray-900 mb-8">Erhalte einen Einblick in die leistungsstarken Funktionen unserer Finanz-App, die dir helfen, deine finanziellen Ziele zu erreichen.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="p-6 bg-gradient-to-br from-gray-50 to-gray-200 rounded-lg shadow-lg">
+          <h2 class="text-xl font-bold mb-4 text-gray-900">Budgetverwaltung</h2>
+          <p class="text-gray-700">Behalte deine Ausgaben im Griff und setze klare finanzielle Ziele mit unserer intuitiven Budgetverwaltung.</p>
+        </div>
+        <div class="p-6 bg-gradient-to-br from-gray-50 to-gray-200 rounded-lg shadow-lg">
+          <h2 class="text-xl font-bold mb-4 text-gray-900">Transaktionsverlauf</h2>
+          <p class="text-gray-700">Verfolge deine finanziellen Transaktionen in Echtzeit und erhalte detaillierte Einblicke, um bessere finanzielle Entscheidungen zu treffen.</p>
+        </div>
+        <div class="p-6 bg-gradient-to-br from-gray-50 to-gray-200 rounded-lg shadow-lg">
+          <h2 class="text-xl font-bold mb-4 text-gray-900">Kontoverwaltung</h2>
+          <p class="text-gray-700">Verwalte all deine Bankkonten an einem zentralen Ort und behalte den Überblick über dein gesamtes Vermögen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</MainLayout>;
