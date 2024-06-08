@@ -8,15 +8,15 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
     <h1 class="text-3xl font-bold mb-12">Kontaktiere uns</h1>
     <div class="contact-info grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2 xl:mx-48">
       <div class="contact-item flex items-center justify-center space-x-4 p-6 bg-gray-100 rounded-lg shadow-lg transition-transform transform hover:-translate-y-2">
-        {(FaEnvelope as any)({ className: "text-4xl text-primary" })}
-        <div>
+        <FaEnvelope />
+        <div class="text-4xl text-primary">
           <h2 class="text-xl font-bold">E-Mail</h2>
           <p class="text-lg">info@finatium.ch</p>
         </div>
       </div>
       <div class="contact-item flex items-center justify-center space-x-4 p-6 bg-gray-100 rounded-lg shadow-lg transition-transform transform hover:-translate-y-2">
-        {(FaPhone as any)({ className: "text-4xl text-primary" })}
-        <div>
+        <FaPhone />
+        <div class="text-4xl text-primary">
           <h2 class="text-xl font-bold">Telefon</h2>
           <p class="text-lg">078 635 7878</p>
         </div>
@@ -25,6 +25,8 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
   </div>
   <div class="mt-12 h-6 w-full bg-black"></div>
 </MainLayout>
+
+
 
 
 <style>
